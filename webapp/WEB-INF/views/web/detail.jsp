@@ -102,7 +102,6 @@
 <body>
 <div class="container">
     <h1 class="text-center mb-4">Thông tin chi tiết tòa nhà</h1>
-
     <div>
         <img src="${building.imageName}" alt="Hình ảnh tòa nhà" class="building-image">
     </div>
@@ -154,8 +153,12 @@
     </div>
 
     <div class="text-center">
+        <a href="/lien-he" class="btn btn-secondary">Để lại thông tin liên hệ</a>
+    </div>
+    <div class="text-center mt-3">
         <a href="/san-pham" class="btn btn-primary">Quay lại danh sách</a>
     </div>
+
 </div>
 <style>
     body {

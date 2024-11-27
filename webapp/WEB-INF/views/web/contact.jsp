@@ -28,27 +28,27 @@
                 <div class="container" style="padding-bottom: 50px">
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <h2 class="title-lienhe"><strong>Công ty cổ phần bất động sản SkyLand</strong></h2>
+                            <h2 class="title-lienhe"><strong>Công ty cổ phần bất động sản 8Xland</strong></h2>
                             <div class="desc-lienhe">
-                                <p>Được thành lập vào ngày 20/08/2008 với niềm đam mê và khát vọng thành công trong lĩnh vực
-                                    bất động sản. Nhờ chiến lược rõ ràng và hướng đi đúng, SkyLand đã nhanh chóng phát triển
+                                <p>Được thành lập vào ngày 1/1/2024 với niềm đam mê và khát vọng thành công trong lĩnh vực
+                                    bất động sản. Nhờ chiến lược rõ ràng và hướng đi đúng, 8Xland đã nhanh chóng phát triển
                                     và đạt được những thành công nhất định.</p>
                                 <ul class="margin-bottom-15 link" style="list-style-type: none;">
                                     <li>
                                         <span class="block_fonticon"><i class="fa fa-map-marker icon-lienhe"></i></span>
-                                        <span class="title-li"> 46 Man Thiện, TP. Thủ Đức, TP. HCM</span>
+                                        <span class="title-li"> Km10, Đường Nguyễn Trãi, Q. Hà Đông, Hà Nội</span>
                                     </li>
                                     <li>
                                         <span class="block_fonticon"><i class="fa fa-mobile icon-lienhe"></i></span>
                                         <span class="title-li">
-                                                Hotline: <a style="color: #434a6e;" class="fone" href="">0922227</a>
+                                                Hotline: <a style="color: #434a6e;" class="fone" href="">0917823784 (Mr Tùng)</a>
 
                                             </span>
                                     </li>
                                     <li>
                                         <span class="block_fonticon"><i class="fa fa-envelope icon-lienhe"></i></span>
                                         <span class="title-li">Email: <a style="color: #434a6e;"
-                                                                         href="">vsh@gmail.com</a></span>
+                                                                         href="">emsinhvien@gmail.com</a></span>
                                     </li>
                                 </ul>
                             </div>
@@ -84,10 +84,7 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="google-map margin-bottom-30">
                                 <div class="maps_iframe">
-                                    <iframe style="width: 100%;"
-                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.577731862711!2d106.7695372142139!3d10.850261760047032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f8d0e993b05%3A0x8abf4c480f8b822b!2zOTcgTWFuIFRoacOqbiwgUGjDuiBIaeG7h3AgSMaw4budYywgbmjhuq10IHPDumMgVHJ1w6JuIFbEg25nLCBWaeG7h3QgTmFt!5e0!3m2!1sen!2s!4v1652520257601!5m2!1sen!2s"
-                                            width="600" height="450" style="border:0;" allowfullscreen=""
-                                            loading="lazy"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.2924013039087!2d105.78484157503006!3d20.980912980656466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135accdd8a1ad71%3A0xa2f9b16036648187!2zSOG7jWMgdmnhu4duIEPDtG5nIG5naOG7hyBCxrB1IGNow61uaCB2aeG7hW4gdGjDtG5n!5e0!3m2!1svi!2s!4v1732730062954!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -100,8 +97,8 @@
                 <div class="container">
                     <div class="top-footer text-center mt-0">
                         <div class="logo logo-footer pt-5">
-                            <a href="./ViewHome.html"><img src="https://bizweb.dktcdn.net/100/328/362/themes/894751/assets/logo_footer.png?1676257083798" alt="logo-footer"></a>
-                            <p class="desc-logo-footer mt-3">Với hơn 10 năm kinh nghiệm, SkyLand tự hào là sàn
+                            <a href="./ViewHome.html"><img src="/images/logo.svg" alt="logo-footer"></a>
+                            <p class="desc-logo-footer mt-3">Với hơn 10 năm kinh nghiệm, 8Xland tự hào là sàn
                                 mua
                                 bán, giao dịch và quảng cáo
                                 bất động sản hàng đầu tại Việt Nam</p>
@@ -113,25 +110,25 @@
                                         </div>
                                         <div class="content-center-footer">
                                             <p class="mb-1 mt-3">Trụ sở chính</p>
-                                            <p class="desc-footer">Số 46 Man Thiện, TP Thủ Đức, TP HCM</p>
+                                            <p class="desc-footer">Km10, Đường Nguyễn Trãi, Q. Hà Đông, Hà Nội</p>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-4 text-center">
                                         <div class="icon-footer">
-                                            <img src="https://bizweb.dktcdn.net/100/328/362/themes/894751/assets/place_phone.png?1676257083798" alt="anh"/>
+                                            <img src="https://bizweb.dktcdn.net/100/328/362/themes/894751/assets/place_phone.png?1676257083798" alt="">
                                         </div>
                                         <div class="content-center-footer">
                                             <p class="mb-1 mt-3">Hotline</p>
-                                            <p class="desc-footer"><a class="a-text" href="#">098828</a></p>
+                                            <p class="desc-footer"><a class="a-text" href="#">0917823784 (Mr Tùng)</a></p>
                                         </div>
                                     </div>
                                     <div class="col-12 col-md-4 text-center">
                                         <div class="icon-footer">
-                                            <img src="https://bizweb.dktcdn.net/100/328/362/themes/894751/assets/place_email.png?1676257083798g" alt="">
+                                            <img src="https://bizweb.dktcdn.net/100/328/362/themes/894751/assets/place_email.png?1676257083798" alt="">
                                         </div>
                                         <div class="content-center-footer">
                                             <p class="mb-1 mt-3">Email</p>
-                                            <p class="desc-footer"><a class="a-text" href="#">vsh@gmail.com</a>
+                                            <p class="desc-footer"><a class="a-text" href="#">emsinhvien@gmail.com</a>
                                             </p>
                                         </div>
                                     </div>
@@ -188,10 +185,10 @@
                     </div>
                 </div>
                 <div class="bottom-footer-2">
-                    <div class="text-center desc-bottom-footer-2">@ Bản quyền thuộc về Happy Team |
-                        Cung cấp bởi <a class="a-text group-name" href="#">HappyTeam</a></div>
+                    <div class="text-center desc-bottom-footer-2">@ Bản quyền thuộc về Nhóm 2</div>
                 </div>
-            </footer>
+        </div>
+        </footer>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script type="text/javascript">

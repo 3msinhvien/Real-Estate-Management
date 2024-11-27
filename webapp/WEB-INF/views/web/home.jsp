@@ -249,7 +249,7 @@ Chủ đầu tư dự án tòa nhà The Terra An Hưng là một đơn vị nổ
                     <div class="col-12 col-md-12">
                         <div class="title_module_main a-center text-center">
                             <h2 style="margin-bottom: 15px;"><span>Vì sao bạn chọn bất động sản
-                                        SkyLand ?</span>
+                                        8Xland ?</span>
                             </h2>
                             <p style="margin-bottom: 30px;">Chúng tôi cung cấp đầy đủ và chính xác
                                 nhất thông tin
@@ -413,9 +413,9 @@ Chủ đầu tư dự án tòa nhà The Terra An Hưng là một đơn vị nổ
             <div class="container-fluid">
                 <div class="top-footer text-center mt-0">
                     <div class="logo logo-footer pt-5">
-                        <a href="./ViewHome.html"><img src="https://bizweb.dktcdn.net/100/328/362/themes/894751/assets/logo_footer.png?1676257083798"
+                        <a href="./ViewHome.html"><img src="/images/logo.svg"
                                                        alt="logo-footer"></a>
-                        <p class="desc-logo-footer mt-3">Với hơn 10 năm kinh nghiệm, SkyLand tự hào là sàn
+                        <p class="desc-logo-footer mt-3">Với hơn 10 năm kinh nghiệm, 8Xland tự hào là sàn
                             mua
                             bán, giao dịch và quảng cáo
                             bất động sản hàng đầu tại Việt Nam</p>
@@ -502,7 +502,7 @@ Chủ đầu tư dự án tòa nhà The Terra An Hưng là một đơn vị nổ
                 </div>
             </div>
             <div class="bottom-footer-2">
-                <div class="text-center desc-bottom-footer-2">@ Bản quyền thuộc về Nhóm 2
+                <div class="text-center desc-bottom-footer-2">@ Bản quyền thuộc về Nhóm 2</div>
             </div>
         </footer>
     </div>

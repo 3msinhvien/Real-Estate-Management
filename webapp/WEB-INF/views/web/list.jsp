@@ -81,15 +81,6 @@
                            pagesize="${model.maxPageItems}"
                            class="table table-striped table-bordered table-hover"
                            style="text-align: center;">
-                <display:column title="<fieldset class='form-group' style='display: block; margin: 0'>
-                                                        <input type='checkbox' id='checkAll' class='check-box-element'>
-												   </fieldset>" class="center select-cell"
-                                headerClass="center select-cell no-select">
-                    <fieldset class="no-select">
-                        <input type="checkbox" name="checkList" value="${tableList.id}"
-                               id="checkbox_${tableList.id}" class="check-box-element"/>
-                    </fieldset>
-                </display:column>
 
                 <display:column property="name" title="Tên tòa nhà" headerClass="center"/>
                 <display:column property="address" title="Địa chỉ" headerClass="center"/>
@@ -120,6 +111,202 @@
         $('#listForm').submit();
     })
 </script>
+
+<style>
+    .table {
+        width: 100%;
+        margin-top: 20px;
+        border-collapse: collapse;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .table th {
+        background-color: #159a5e;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        padding: 12px;
+    }
+
+    .table td {
+        padding: 12px;
+        text-align: center;
+        vertical-align: middle;
+        color: #333;
+        border: 1px solid #dee2e6;
+    }
+
+    .table tr:nth-child(odd) {
+        background-color: #f8f9fa;
+    }
+
+    .table tr:nth-child(even) {
+        background-color: #ffffff;
+    }
+
+    .table tr:hover {
+        background-color: #e9ecef;
+    }
+
+    .table .btn-info {
+        color: #fff;
+        background-color: #189a2f;
+        border-color: #189f3f;
+        padding: 5px 10px;
+        font-size: 0.9rem;
+        border-radius: 5px;
+        transition: all 0.3s ease;
+    }
+
+    .table .btn-info:hover {
+        background-color: #138496;
+        border-color: #117a8b;
+    }
+
+    .table th:first-child,
+    .table td:first-child {
+        border-left: none;
+    }
+
+    .table th:last-child,
+    .table td:last-child {
+        border-right: none;
+    }
+
+    .pagination {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        padding: 0;
+        list-style: none;
+    }
+
+    .pagination li {
+        margin: 0 5px;
+    }
+
+    .pagination a {
+        display: inline-block;
+        padding: 8px 12px;
+        font-size: 0.9rem;
+        font-weight: bold;
+        color: #28a745; /* Xanh lá */
+        text-decoration: none;
+        border: 1px solid #28a745;
+        border-radius: 5px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+    .pagination a:hover {
+        background-color: #28a745; /* Nền xanh lá khi hover */
+        color: #fff; /* Chữ trắng khi hover */
+    }
+
+    .pagination .active a {
+        background-color: #28a745; /* Nền xanh lá đậm */
+        color: #fff; /* Chữ trắng */
+        border-color: #28a745;
+    }
+
+    .pagination .disabled a {
+        color: #c3e6cb; /* Xanh lá nhạt */
+        pointer-events: none;
+        background-color: #f8f9fa; /* Nền xám nhạt */
+        border-color: #c3e6cb;
+    }
+
+    .pagination a i {
+        font-size: 1rem;
+    }
+
+     /* Container Form */
+    .search {
+        background-color: #457a47; /* Nền xám nhạt */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    /* Label */
+    .search label {
+        font-weight: bold;
+        color: #495057;
+        margin-bottom: 5px;
+    }
+.search {
+        background-color: #ffffff; /* Nền xanh lá nhạt */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    /* Label */
+    .search label {
+        font-weight: bold;
+        color: #495057;
+        margin-bottom: 5px;
+    }
+
+    /* Input Fields */
+    .search .form-control {
+        height: 40px;
+        border: 1px solid #28a745; /* Viền xanh lá */
+        border-radius: 5px;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .search .form-control:focus {
+        border-color: #28a745; /* Viền xanh lá đậm khi focus */
+        box-shadow: 0 0 5px rgba(40, 167, 69, 0.5); /* Ánh sáng xanh lá */
+    }
+
+    /* Dropdown Fields */
+    .search .form-select {
+        height: 40px;
+        border: 1px solid #28a745;
+        border-radius: 5px;
+        transition: border-color 0.3s, box-shadow 0.3s;
+    }
+
+    .search .form-select:focus {
+        border-color: #28a745;
+        box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+    }
+
+    /* Button Search */
+    .search .btn-primary {
+        background-color: #28a745; /* Xanh lá */
+        border: none;
+        color: #fff;
+        font-weight: bold;
+        height: 40px;
+        border-radius: 5px;
+        transition: background-color 0.3s, box-shadow 0.3s;
+    }
+
+    .search .btn-primary:hover {
+        background-color: #218838; /* Xanh lá đậm hơn khi hover */
+        box-shadow: 0 4px 10px rgba(33, 136, 56, 0.5); /* Đổ bóng khi hover */
+    }
+
+    /* Align Search Items */
+    .search-item {
+        margin-bottom: 15px;
+    }
+
+    /* Responsive Margin for Search Form */
+    @media (min-width: 768px) {
+        .search .row .col-md-4, .search .row .col-md-6 {
+            margin-bottom: 0;
+        }
+</style>
+
 </body>
+
+
 
 </html>
